@@ -1,6 +1,5 @@
 /*+++++++++++++++++++++ LIFI TRANSCEIVER PROGRAM FOR PC ++++++++++++++++++++++//
 // BY.....>>>>>> Ochieng Dickson <<<<<<<
-//  ...........University of Nairobi.......................
 //           BSc. Electrical and Electrical Engineering........... 
 //  ........Final Year Project..............................................*/
 
@@ -107,7 +106,6 @@ String lifiReceiver(){
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   // Check for incoming data
   luxValue = analogRead(luxPin);
   if (luxValue > threshold) {
