@@ -1,7 +1,4 @@
 /*+++++++++++++++++++++ LIFI TRANSCEIVER PROGRAM FOR PC ++++++++++++++++++++++//
-// BY.....>>>>>> Ochieng Dickson <<<<<<<
-//           BSc. Electrical and Electrical Engineering........... 
-//  ........Final Year Project..............................................*/
 
 int TxPin = 12; // Pin for data transmission 
 int bit_delay = 50; // delay between bits in a packet
